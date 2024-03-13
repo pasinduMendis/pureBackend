@@ -1,0 +1,31 @@
+{
+  "name": "purepm-listing-web-app",
+  "version": "1.0.0",
+  "description": "Node Express Mongoose app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --configuration=dev --disableHostCheck=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TharinduLashan/PurePM-Listing-Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TharinduLashan/PurePM-Listing-Web-App/issues"
+  },
+  "homepage": "https://github.com/TharinduLashan/PurePM-Listing-Web-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.7.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^2.0.20"
+  }
+}
